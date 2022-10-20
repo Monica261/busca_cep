@@ -1,4 +1,6 @@
 # Buscador de CEP
 consumindo a api do VIACEP
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](busca_cep_react.mp4)
+<p>
+<img src="busca_cep_react.gif">
+</p>
