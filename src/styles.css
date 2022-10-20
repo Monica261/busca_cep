@@ -1,0 +1,90 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(teal, green);
+}
+
+.title{
+    font-size: 60px;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+}
+
+.containerInput{
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border:0;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #fff;
+}
+
+.buttonSearch{
+    background-color: teal;
+    border:#fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttonSearch:hover{
+    background-color: aquamarine;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 30px;
+}
+
+.main span{
+    margin-bottom: 10px;
+}
+
+.main p{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
